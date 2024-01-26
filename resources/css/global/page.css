@@ -1,0 +1,1513 @@
+  
+.page-content{
+    max-width: 1200px;
+    height: 1938px;
+    padding-top: 20px;
+    padding-left: 45px;
+    gap: 70px; 
+    margin: 0 auto;
+}
+
+.main-page-info{
+    max-width: 1110px;
+    height: 1834px;
+    gap: 30px;
+    margin-bottom: 60px;
+  
+}
+.page-header{
+    width: 1110px;
+    height: 73px;
+    gap: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;  
+    margin-bottom: 30px; 
+    display: none;
+}
+
+.page-post{
+    max-width: 1110px;
+    height: 1731px;
+    gap: 30px; 
+}
+
+.layout-page-header{
+    width: 290px;
+    height: 39px;
+
+}
+
+.date-tags-block{
+    width: 1,110px;
+    height: 24px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1;
+    gap: 770px;
+}
+
+.tags-block{
+    width: 229px;
+    height: 24px;
+    gap: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1 1;   
+}
+
+p.tags{
+    font-family: Proba Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(45, 92, 166, 1);
+
+}
+
+.image-block{
+    width: 1110px;
+    height: 480px;
+    margin-bottom: 30px;
+}
+
+.main-text-1{
+    width: 1110px;
+    height: 868px;
+    /* gap: 20px */
+}
+.main-text-2{
+    width: 1110px;
+    height: 353px;
+    gap: 20px
+}
+
+.title-main-text{
+    width: 1110px;
+    height: 27px;
+    margin-bottom: 20px;
+}
+
+.post_img_1{
+    width: 1110px;
+    height: 480px
+}
+
+img.post_img_2{
+    width: 540px;
+    height: 346px;
+}
+
+.first-text-block-content{
+    width: 1110px;
+    height: 72px;
+    margin-bottom: 10px;
+}
+
+.text-block-second-3-adaptive{
+    display: none;
+}
+
+.second-text-block-content{
+    width: 1110px;
+    height: 380px;
+    gap: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1;
+    gap:30px;
+    margin-bottom: 20px;
+}
+
+.text-part{
+    width: 540px;
+    height: 380px;
+    gap: 10px
+}
+
+.image-part{
+    max-width: 540px;
+    height: 380px;
+    gap: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+}
+
+p.image-description{
+    font-family: Proba Pro;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: rgba(109, 114, 124, 1);
+    margin-left: 40%;
+}
+
+.third-text-blok-content{
+    width: 1110px;
+    height: 19px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+}
+
+.text-block-third-1{
+    width: 1110px;
+    height: 48px;
+    margin-bottom: 10px;
+}
+.text-block-third-2{
+    width: 1110px;
+    height: 72px;
+    margin-bottom: 10px;
+}
+.text-block-third-3{
+    width: 1110px;
+    height: 96px;
+    margin-bottom: 10px;
+}
+.text-block-third-4{
+    width: 1110px;
+    height: 73px;
+    margin-bottom: 10px;
+}
+
+.fourth-text-block-content{
+    width: 1110px;
+    height: 353px;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+    gap: 10px;
+}
+
+.text-block-fourth-1{
+    width: 1110px;
+    height: 27px
+}
+
+.text-block-fourth-2{
+    width: 1110px;
+    height: 184px;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+    gap: 10px;
+}
+
+.text-block-fourth-2-1{
+    width: 1110px;
+    height: 24px
+}
+.text-block-fourth-2-2{
+    width: 1110px;
+    height: 48px
+}
+.text-block-fourth-2-3{
+    width: 1110px;
+    height: 24px
+}
+.text-block-fourth-2-4{
+    width: 1110px;
+    height: 24px
+}
+.text-block-fourth-2-5{
+    width: 1110px;
+    height: 24px
+}
+
+.text-block-fourth-3{
+    width: 1110px;
+    height: 58px;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1;
+    gap: 10px;
+}
+
+.text-block-fourth-3-1{
+    width: 1110px;
+    height: 24px
+}
+
+.text-block-fourth-3-2{
+    width: 1110px;
+    height: 24px
+}
+
+.text-block-fourth-4{
+    width: 223px;
+    height: 24px;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1;
+    gap: 10px;
+}
+
+.e-mail{
+    width: 223px;
+    height: 24px;
+    gap: 10px
+}
+
+p.e-mail{
+    font-family: Proba Pro;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(45, 92, 166, 1);
+}
+
+img.email-img{
+    width: 24px;
+    height: 18px
+}
+
+.doc-block-main{
+    width: 1200px;
+    height: 34px; 
+}
+
+.doc-block{
+    width: 237px;
+    height: 24px;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1 1;
+    gap: 20px;
+    padding-left: 470px;
+}
+
+.print{
+    width: 66px;
+    height: 24px;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1;
+    gap: 10px
+}
+
+.pdf{
+    width: 62px;
+    height: 24px;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1;
+    gap: 10px
+}
+
+.left-email{
+    width: 69px;
+    height: 24px;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1;
+    gap: 10px
+}
+
+p.doc-block-option{
+    font-family: Proba Pro;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(29, 29, 27, 1);
+}
+.text-block-second-2-adaptive{
+    display: none;
+}
+
+.text-block-second-1-adaptive{
+    display: none;
+}
+
+.first-text-block-content-1{
+    display: none;
+}
+.first-text-block-content-2{
+    display: none;
+}
+
+
+/* -------------------------------------------------------------------- */
+
+@media (max-width: 768px){
+    .page-content{
+        max-width: 768px;
+        height: 2227px;
+       
+        /* gap: 50px; 
+        margin-left: 45px;
+        padding-bottom: 150px; */
+    }
+
+    .main-page-info{
+        max-width: 714px;
+        height: 2043px;
+        gap: 30px;
+        margin-bottom: 60px;
+      
+    }
+    .page-header{
+        width: 714px;
+        height: 70px;
+        gap: 10px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1;  
+        margin-bottom: 10px; 
+        display: block;
+    }
+    
+    .page-post{
+        max-width: 714px;
+        height: 2043px;
+        gap: 30px; 
+    }
+    
+    p.page-title{
+        width: 250px;
+        height: 36px;
+        font-family: Proba Pro;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 39px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .layout-page-header{
+        width: 214px;
+        height: 36px
+    }
+    
+    .date-tags-block{
+        width: 714px;
+        height: 24px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1 1;
+        gap: 500px;
+    }
+    
+    p.date{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(109, 114, 124, 1);
+    }
+    
+    
+    .tags-block{
+        width: 229px;
+        height: 24px;
+        gap: 10px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1 1 1;   
+    }
+    
+    p.tags{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(45, 92, 166, 1);
+    
+    }
+    
+    .image-block{
+        width: 714px;
+        height: 381px;
+        margin-bottom: 30px;
+    }
+    
+    .main-text-1{
+        width: 714px;
+        height: 1150px;
+        gap: 20px
+    }
+    .main-text-2{
+        width: 714px;
+        height: 452px;
+        gap: 20px
+    }
+    
+    .title-main-text{
+        width: 714px;
+        height: 27px;
+        margin-bottom: 20px;
+    }
+    
+    p.text-title{
+        font-family: Proba Pro;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(29, 29, 27, 1);
+    }
+    
+    .post_img_1{
+        width: 714px;
+        height: 381px
+    }
+    
+    img.post_img_2{
+        width: 342px;
+        height: 408px;
+        object-fit: cover
+    }
+    
+    .first-text-block-content{
+        width: 714px;
+        height: 120px;
+        margin-bottom: 10px;
+    }
+    
+    p.text-block-second{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    
+    .second-text-block-content{
+        width: 714px;
+        height: 442px;
+        gap: 10px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1 1;
+        gap:30px;
+        margin-bottom: 20px;
+    }
+    .text-block-second-3{
+        display: none;
+    }
+
+    .text-block-second-3-adaptive{
+        visibility: visible;
+        width: 714px;
+        height: 72px;
+        margin-bottom: 10px;
+    }
+    
+    .text-part{
+        width: 342px;
+        height: 442px;
+        gap: 10px
+    }
+    
+    .image-part{
+        max-width: 540px;
+        height: 380px;
+        gap: 10px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1;
+    }
+    
+    p.image-description{
+        font-family: Proba Pro;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        color: rgba(109, 114, 124, 1);
+        margin-left: 40%;
+    }
+    
+    .third-text-blok-content{
+        width: 714px;
+        height: 449px;
+        /* height: 521px; */
+        margin-bottom: 10px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1;
+    }
+    
+    .text-block-third-1{
+        width: 714px;
+        height: 72px;
+        margin-bottom: 10px;
+    }
+    .text-block-third-2{
+        width: 714px;
+        height: 96px;
+        margin-bottom: 10px;
+    }
+    .text-block-third-3{
+        width: 714px;
+        height: 144px;
+        margin-bottom: 10px;
+    }
+    .text-block-third-4{
+        width: 714px;
+        height: 97px;
+        margin-bottom: 10px;
+    }
+    
+    .fourth-text-block-content{
+        width: 714px;
+        height: 452px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1;
+        gap: 10px;
+    }
+    
+    .text-block-fourth-1{
+        width: 714px;
+        height: 54px
+    }
+    
+    .text-block-fourth-2{
+        width: 714px;
+        height: 208px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1;
+        gap: 10px;
+    }
+    
+    .text-block-fourth-2-1{
+        width: 714px;
+        height: 48px
+    }
+    .text-block-fourth-2-2{
+        width: 714px;
+        height: 48px
+    }
+    .text-block-fourth-2-3{
+        width: 714px;
+        height: 24px
+    }
+    .text-block-fourth-2-4{
+        width: 714px;
+        height: 24px
+    }
+    .text-block-fourth-2-5{
+        width: 714px;
+        height: 24px
+    }
+    
+    .text-block-fourth-3{
+        width: 714px;
+        height: 106px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1;
+        gap: 10px;
+    }
+    
+    .text-block-fourth-3-1{
+        width: 714px;
+        height: 48px
+    }
+    
+    .text-block-fourth-3-2{
+        width: 714px;
+        height: 48px
+    }
+    
+    .text-block-fourth-4{
+        width: 223px;
+        height: 24px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1 1;
+        gap: 10px;
+    }
+    
+    .e-mail{
+        width: 223px;
+        height: 24px;
+        gap: 10px
+    }
+    
+    p.e-mail{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(45, 92, 166, 1);
+    }
+    
+    img.email-img{
+        width: 24px;
+        height: 18px
+    }
+    
+    .doc-block-main{
+        width: 768px;
+        height: 34px; 
+    }
+    
+    .doc-block{
+        width: 237px;
+        height: 24px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1 1 1;
+        gap: 20px;
+        padding-left: 230px;
+    }
+    
+    .print{
+        width: 66px;
+        height: 24px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1 1;
+        gap: 10px
+    }
+    
+    .pdf{
+        width: 62px;
+        height: 24px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1 1;
+        gap: 10px
+    }
+    
+    .left-email{
+        width: 69px;
+        height: 24px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1 1;
+        gap: 10px
+    }
+    
+    p.doc-block-option{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(29, 29, 27, 1);
+    }
+
+    .text-block-second-2-adaptive{
+        display: none;
+    }
+       .text-block-second-1-adaptive{
+        display: none;
+    }
+    .first-text-block-content-1{
+        display: none;
+    }
+    .first-text-block-content-2{
+        display: none;
+    }
+    }
+    
+
+/* --------------------------------------------------------------------- */
+
+@media (max-width: 480px){
+
+    .page-content{
+        max-width: 480px;
+        height: 2558px;
+        padding-top: 428px;
+        gap: 50px; 
+        margin-left: 15px;
+        padding-bottom: 150px;
+    }
+
+    .main-page-info{
+        max-width: 450px;
+        height: 2558px;
+        gap: 30px;
+        margin-bottom: 60px;
+    }
+
+    .page-header{
+        width: 450px;
+        height: 70px;
+        gap: 10px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1;  
+        margin-bottom: 10px; 
+    }
+    
+    .page-post{
+        max-width: 450px;
+        height: 2374px;
+        gap: 30px; 
+    }
+    
+    p.page-title{
+        width: 250px;
+        height: 36px;
+        font-family: Proba Pro;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 39px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .layout-page-header{
+        width: 214px;
+        height: 36px
+    }
+    
+    .date-tags-block{
+        width: 450px;
+        height: 24px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1 1;
+        gap: 250px;
+    }
+    
+    p.date{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(109, 114, 124, 1);
+    }
+    
+    
+    .tags-block{
+        width: 229px;
+        height: 24px;
+        gap: 10px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1 1 1;   
+    }
+    
+    p.tags{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(45, 92, 166, 1);
+    
+    }
+    
+    .image-block{
+        width: 450px;
+        height: 267px;
+        margin-bottom: 30px;
+    }
+    
+    .main-text-1{
+        width: 450px;
+        height: 1449px;
+        gap: 20px
+    }
+    
+    .main-text-2{
+        width: 450px;
+        height: 551px;
+        /* gap: 30px */
+    }
+    
+    .title-main-text{
+        width: 450px;
+        height: 27px;
+        margin-bottom: 20px;
+    }
+    
+    p.text-title{
+        font-family: Proba Pro;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(29, 29, 27, 1);
+    }
+
+    .post_img_1{
+        width: 210px;
+        height: 226px
+    }
+    
+    img.post_img_2{
+        width: 210px;
+        height: 192px;
+        object-fit: cover
+    }
+    .first-text-block-content{
+        display: none;
+    }
+
+    .first-text-block-content-1{
+        width: 450px;
+        height: 144px;
+        margin-bottom: 10px;
+    }
+
+    .first-text-block-content-2{
+        width: 210px;
+        height: 144px
+    }
+
+    .text-block-second-2{
+        display: none;
+    }
+    
+    .text-block-second-1{
+        width: 210px;
+        height: 72px
+    }
+
+    p.text-block-second{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    
+    .second-text-block-content{
+        width: 450px;
+        height: 226px;
+        gap: 10px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1 1;
+        gap: 30px;
+        margin-bottom: 20px;
+    }
+
+    .text-block-second-2-adaptive{
+        visibility: visible;
+        width: 450px;
+        height: 288px
+        
+    }
+    .text-block-second-3{
+        display: none;
+    }
+
+    .text-block-second-3-adaptive{
+        visibility: visible;
+        width: 450px;
+        height: 96px;
+        margin-bottom: 10px;
+    }
+    
+    .text-part{
+        width: 210px;
+        height: 226px;
+        gap: 10px
+    }
+    
+    .image-part{
+        max-width: 540px;
+        height: 380px;
+        gap: 10px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1;
+    }
+    
+    p.image-description{
+        font-family: Proba Pro;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        color: rgba(109, 114, 124, 1);
+        margin-left: 40%;
+    }
+    
+    .third-text-blok-content{
+        width: 714px;
+        height: 449px;
+        /* height: 521px; */
+        margin-bottom: 10px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1;
+    }
+    
+    .text-block-third-1{
+        width: 450px;
+        height: 120px;
+        margin-bottom: 10px;
+    }
+    .text-block-third-2{
+        width: 450px;
+        height: 144px;
+        margin-bottom: 10px;
+    }
+    .text-block-third-3{
+        width: 450px;
+        height: 216px;
+        margin-bottom: 10px;
+    }
+    .text-block-third-4{
+        width: 450px;
+        height: 145px;
+        margin-bottom: 10px;
+    }
+    
+    .fourth-text-block-content{
+        width: 450px;
+        height: 551px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1;
+        gap: 10px;
+    }
+    
+    .text-block-fourth-1{
+        width: 450px;
+        height: 81px
+    }
+    
+    .text-block-fourth-2{
+        width: 450px;
+        height: 232px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1;
+        gap: 10px;
+    }
+    
+    .text-block-fourth-2-1{
+        width: 450px;
+        height: 48px
+    }
+    .text-block-fourth-2-2{
+        width: 450px;
+        height: 72px
+    }
+    .text-block-fourth-2-3{
+        width: 450px;
+        height: 24px
+    }
+    .text-block-fourth-2-4{
+        width: 450px;
+        height: 24px
+    }
+    .text-block-fourth-2-5{
+        width: 450px;
+        height: 24px
+    }
+    
+    .text-block-fourth-3{
+        width: 450px;
+        height: 154px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1;
+        gap: 10px;
+    }
+    
+    .text-block-fourth-3-1{
+        width: 450px;
+        height: 72px
+    }
+    
+    .text-block-fourth-3-2{
+        width: 450px;
+        height: 72px
+    }
+    
+    .text-block-fourth-4{
+        width: 223px;
+        height: 24px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1 1;
+        gap: 10px;
+    }
+    
+    .e-mail{
+        width: 223px;
+        height: 24px;
+        gap: 10px
+    }
+    
+    p.e-mail{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(45, 92, 166, 1);
+    }
+    
+    img.email-img{
+        width: 24px;
+        height: 18px
+    }
+    
+    .doc-block-main{
+        width: 450px;
+        height: 34px; 
+    }
+    
+    .doc-block{
+        width: 237px;
+        height: 24px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1 1 1;
+        gap: 20px;
+        padding-left: 150px;
+    }
+    
+    .print{
+        width: 66px;
+        height: 24px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1 1;
+        gap: 10px
+    }
+    
+    .pdf{
+        width: 62px;
+        height: 24px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1 1;
+        gap: 10px
+    }
+    
+    .left-email{
+        width: 69px;
+        height: 24px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1 1;
+        gap: 10px
+    }
+    
+    p.doc-block-option{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(29, 29, 27, 1);
+    
+    }
+    .text-block-second-1-adaptive{
+        display: none;
+    }
+
+}
+
+/* --------------------------------------------------------------------- */
+
+@media (max-width: 360px){
+
+    .page-content{
+        max-width: 360px;
+        height: 3242px;
+        padding-top: 390px;
+        gap: 50px; 
+        margin-left: 15px;
+        padding-bottom: 150px;
+    }
+
+    .main-page-info{
+        max-width: 330px;
+        height: 3242px;
+        gap: 30px;
+
+    }
+    .page-header{
+        width: 330px;
+        height: 70px;
+        gap: 10px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1;  
+        margin-bottom: 10px; 
+    }
+    
+    .page-post{
+        max-width: 330px;
+        height: 3058px;
+        gap: 30px; 
+    }
+    
+    p.page-title{
+        width: 250px;
+        height: 36px;
+        font-family: Proba Pro;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 39px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    
+    .date-tags-block{
+        width: 330px;
+        height: 24px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1 1;
+    }
+
+    p.date{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(109, 114, 124, 1);
+    }
+    
+    
+    .tags-block{
+        width: 229px;
+        height: 24px;
+        gap: 10px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1 1 1;   
+    }
+    
+    p.tags{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(45, 92, 166, 1);
+    
+    }
+    
+    .image-block{
+        width: 330px;
+        height: 267px;
+        margin-bottom: 30px;
+    }
+    
+    .main-text-1{
+        width: 330px;
+        height: 2060px;
+        gap: 20px
+    }
+    .main-text-2{
+        width: 330px;
+        height: 671px;
+        gap: 20px
+    }
+    
+    .title-main-text{
+        width: 330px;
+        height: 27px;
+        margin-bottom: 20px;
+    }
+    
+    p.text-title{
+        font-family: Proba Pro;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(29, 29, 27, 1);
+    }
+    
+    .post_img_1{
+        width: 714px;
+        height: 381px
+    }
+    
+    img.post_img_2{
+        width: 342px;
+        height: 408px;
+        object-fit: cover
+    }
+    
+    .first-text-block-content{
+        width: 330px;
+        height: 264px;
+        margin-bottom: 10px;
+    }
+
+    .first-text-block-content-1{
+        display: none;
+    }
+    .first-text-block-content-2{
+        display: none;
+    }
+    .text-block-second-1{
+        display: none;
+    }
+
+    .text-block-second-1-adaptive{
+        visibility: visible;
+        width: 330px;
+        height: 48px;
+    }
+    p.text-block-second{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    
+    .second-text-block-content{
+        width: 330px;
+        height: 252px;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .text-block-second-3{
+        display: none;
+    }
+
+    .text-block-second-2-adaptive{
+        visibility: visible;
+        width: 330px;
+        height: 408px;
+    }
+    
+    .text-block-second-3-adaptive{
+        visibility: visible;
+        width: 330px;
+        height: 144px;
+        margin-bottom: 10px;
+    }
+    
+    .text-part{
+        display: none;
+    }
+    
+    .image-part{
+        max-width: 330px;
+        height: 250px;
+        gap: 10px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1;
+    }
+    
+    p.image-description{
+        font-family: Proba Pro;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        color: rgba(109, 114, 124, 1);
+        margin-left: 40%;
+    }
+    
+    .third-text-blok-content{
+        width: 330px;
+        height: 1477px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1;
+    }
+    
+    .text-block-third-1{
+        width: 330px;
+        height: 144px;
+        margin-bottom: 10px;
+    }
+    .text-block-third-2{
+        width: 330px;
+        height: 192px;
+        margin-bottom: 10px;
+    }
+    .text-block-third-3{
+        width: 330px;
+        height: 288px;
+        margin-bottom: 10px;
+    }
+    .text-block-third-4{
+        width: 330px;
+        height: 193px;
+        margin-bottom: 10px;
+    }
+    
+    .fourth-text-block-content{
+        width: 330px;
+        height: 761px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1;
+        gap: 10px;
+    }
+    
+    .text-block-fourth-1{
+        width: 330px;
+        height: 81px
+    }
+    
+    .text-block-fourth-2{
+        width: 330px;
+        height: 304px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1;
+        gap: 10px;
+    }
+    
+    .text-block-fourth-2-1{
+        width: 330px;
+        height: 72px
+    }
+    .text-block-fourth-2-2{
+        width: 330px;
+        height: 96px
+    }
+    .text-block-fourth-2-3{
+        width: 330px;
+        height: 48px
+    }
+    .text-block-fourth-2-4{
+        width: 330px;
+        height: 24px
+    }
+    .text-block-fourth-2-5{
+        width: 330px;
+        height: 24px
+    }
+    
+    .text-block-fourth-3{
+        width: 330px;
+        height: 202px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1;
+        gap: 10px;
+    }
+    
+    .text-block-fourth-3-1{
+        width: 330px;
+        height: 96px
+    }
+    
+    .text-block-fourth-3-2{
+        width: 330px;
+        height: 96px
+    }
+    
+    .text-block-fourth-4{
+        width: 223px;
+        height: 24px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1 1;
+        gap: 10px;
+    }
+    
+    .e-mail{
+        width: 223px;
+        height: 24px;
+        gap: 10px
+    }
+    
+    p.e-mail{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(45, 92, 166, 1);
+    }
+    
+    img.email-img{
+        width: 24px;
+        height: 18px
+    }
+    
+    .doc-block-main{
+        width: 330px;
+        height: 34px; 
+    }
+    
+    .doc-block{
+        width: 237px;
+        height: 24px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1 1 1;
+        gap: 20px;
+        padding-left: 230px;
+    }
+    
+    .print{
+        width: 66px;
+        height: 24px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1 1;
+        gap: 10px
+    }
+    
+    .pdf{
+        width: 62px;
+        height: 24px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1 1;
+        gap: 10px
+    }
+    
+    .left-email{
+        width: 69px;
+        height: 24px;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1 1;
+        gap: 10px
+    }
+    
+    p.doc-block-option{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(29, 29, 27, 1);
+    }
+
+
+}

@@ -1,0 +1,125 @@
+.menu{
+    max-width: 1190px;
+    height: 70px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1;
+    justify-content: space-between;
+}
+
+.tabs-menu{
+    width: 990px;
+    height: 29px;
+    margin-top: 31px;
+    text-decoration-line: none;
+    justify-content: space-between;
+}
+
+.nav-tabs{
+    border: none;
+    border-bottom: none;
+    --bs-border-width: none;
+}
+
+.search{
+    width: 81px;
+    height: 24px;
+    margin-top: 33px;
+    gap: 10px;
+    padding-left: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1;
+}
+
+button.open-search{
+    width: 90px;
+    display: flex;
+    gap: 10px;
+    background-color: transparent;
+    border-style: none;
+    font-family: Proba Pro;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* p.search-text-field{
+    font-family: Proba Pro;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+} */
+
+.search-img{
+    width: 24px;
+    height: 24px;
+}
+
+a.nav-link {
+    font-family: Proba Pro;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    text-decoration-line: none;
+    border: none;
+}
+
+a.nav-link:hover{
+    color: yellow;
+    text-decoration: none;
+    border: none;
+    background-color:  #1B3764;;
+}
+
+a.nav-link:visited{
+    border: none;
+}
+
+ul.nav{
+    --bs-nav-link-padding-x: 10px;
+    --bs-nav-link-padding-y: 10px;
+}
+
+.dropdown-menu.show {
+    width: 1200px;
+    background-color: #1B3764;
+
+}
+
+ul.dropdown-menu{
+    column-count: 3;
+    width: 100%;
+    left: 0;
+    z-index: 10;
+    padding: 32px 45px;
+    /* top: 100%; */
+}
+
+a.dropdown-item{
+    font-family: Proba Pro;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    text-decoration-line: none;
+    border: none;
+    height: 48px;
+}
+
+.dropdown-menu ul li{
+    width: 325px;
+}
+/* 
+.dropdown-menu.show ul li{
+    flex: 0 0 33%;
+} */

@@ -1,0 +1,359 @@
+
+    
+header{
+    height: 358px;
+    background: radial-gradient(51.38% 150.28% at 50% 50%, #104D82 0%, #234161 100%);
+}
+
+.main-menu{
+    width: 1199px;
+}
+
+.burger{
+    display: none;
+}
+
+.header-content{
+    width: 1199px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1 1;
+    padding-top: 23px;
+}
+
+.frame1{
+    width: 227px;
+    gap: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1 1;
+}
+
+.rectangle-group{
+    display: block;
+    width: 10px;
+    height: 40px
+}
+
+.rec1{
+    width: 10px;
+    height: 20px;
+    top: 6px;
+    background: #2A8BFB;
+}
+
+.rec2{
+    width: 10px;
+    height: 20px;
+    top: 26px;
+    background:#F6D106;
+}
+
+.gov-ua{
+    width: 163px;
+    color: #FFFFFF;
+}
+
+.link-gov-ua-1{
+    width: 49px;
+}
+
+.link-gov-ua-2{
+    width: 170px;
+}
+
+p.gov{
+    font-family: Proba Pro;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;    
+    margin-bottom: 0;
+}
+
+p.title-gov-ua{
+    font-family: Proba Pro;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.frame2{
+    width: 750px;
+    height: 236.33px;
+    gap: 10px;
+    text-align: center;
+}
+
+p.text1{
+    font-family: Proba Pro;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+}
+
+p.text2{
+    font-family: Proba Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.special{
+    width: 157px;
+    display: flex;
+    flex-flow: column wrap;
+    flex: 1 1;    
+    gap: 10px;
+   align-items: end;
+}
+
+
+p.special-text-block{
+    width: 123px;
+    height: 48px;
+    font-family: Proba Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+
+img.eye-img{
+    width: 24px;
+    height: 24px;
+    padding: 5px, 1px, 5px, 1px
+}
+.special-eye-block{
+    width: 157px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.social-network-btns{
+    width: 68px;
+    height: 24px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.emblem-img{
+    width: 32px;
+    height: 53.33px;
+    padding: 0px, 0px, 0.01px, 0px;
+}
+
+.eye-img{
+    width: 22px;
+    height: 14px;
+    top: 5px;
+    left: 1px;
+    border: 1.3px solid rgba(255, 255, 255, 1);
+}
+
+.header-content-adaptive{
+    display: none;
+}
+
+.search-header-btn{
+   display: none; 
+}
+
+.search-header-btn-adaptive{
+    display: none;
+}
+
+
+/* --------------------------------------------------------------------- */
+
+@media (max-width: 1199px){
+
+header{
+    width: 768px;
+    margin: 0 auto;
+}
+
+.main-menu{
+    display: none;
+}
+
+.burger{
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+.special-eye-block{
+    display: none;
+}
+
+.social-network-btns{
+    display: none;
+}
+
+.search-header-btn{
+    display: block;
+    padding-right: 20px;
+}
+
+.frame1{
+    width: 250px;
+    height: 52px;
+}
+
+.frame2{
+    width: 408px;
+    height: 218px;
+    margin: 0 auto;
+}
+
+.header-content{
+    width: 767px;
+}
+
+img.menu-burger-img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+p.text1{
+    font-family: Proba Pro;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+}
+
+p.text2{
+    font-family: Proba Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+} 
+
+}
+/* --------------------------------------------------------------------- */
+
+@media (max-width: 757px){
+
+    header{
+        width: 480px;
+        height: 360px;
+        background: radial-gradient(51.38% 150.28% at 50% 50%, #104D82 0%, #234161 100%);
+        margin: 0 auto;;
+    }
+ 
+    
+    .frame2{
+        width: 450px;
+        height: 206px;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .header-content{
+        width: 450px;
+
+    }
+    
+    p.text1{
+        font-family: Proba Pro;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 38px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+        text-transform: uppercase;
+    }
+    
+    p.text2{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+    }
+    .search-header-btn-adaptive{
+        display: none;
+    }
+
+}
+
+/* --------------------------------------------------------------------- */
+
+@media (max-width: 459px){
+
+    header{
+        width: 360px;
+        height: 360px;
+        background: radial-gradient(51.38% 150.28% at 50% 50%, #104D82 0%, #234161 100%);
+        margin: 0 auto;
+    }
+    
+    .header-content{
+        width: 330px;
+        height: 360px;
+        margin: 0 auto;
+    }
+
+    .frame2{
+        width: 330px;
+        height: 236px;   
+    }
+
+    .search-header-btn{
+        display: none;
+    }
+
+    .search-header-btn-adaptive{
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
+    
+    p.text1{
+        font-family: Proba Pro;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 36px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+        text-transform: uppercase;
+    }
+    
+    p.text2{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+    }
+}

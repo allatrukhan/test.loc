@@ -1,0 +1,471 @@
+footer{
+    width: 100%;
+    height: 116px;
+    border-top: 1px solid rgba(194, 197, 203, 1);
+    bottom: 0;
+    /* position: fixed; */
+    background-color: white;
+    margin: 0 auto;
+}
+.layout-footer{
+    width: 1199px;
+    /* display: flex; */
+    /* flex-flow: row wrap; */
+    /* flex: 1 1 1; */
+    /* gap: 30px;  */
+    /* padding-left: 45px; */
+    padding-top: 22px;
+    /* padding-right: 45px; */
+    /* padding-bottom: 22px; */
+}
+/* .footer-1st-block{
+    width: 750px;
+    height: 72px;
+    left: 30px;
+} */
+
+/* .footer-2nd-block{
+    width: 68px;
+    height: 24px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1;
+    gap: 20px;
+    padding-top: 20px;
+} */
+/* .footer-3rd-block{
+    width: 132px;
+    height: 48px;
+    text-align: left;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+} */
+/* p.footer-rightside-text-1{
+    width: 132px;
+} */
+.social-footer-img{
+    width: 24px;
+    height: 24px
+}
+.social-network-btns-block{
+    width: 68px;
+    height: 24px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 20px;
+    /* padding-left: 20px;
+     */
+}
+
+.block-one{
+    width: 750px;
+    height: 72px;
+}
+
+.developer-block{
+    width: 132px;
+    height: 48px;
+    padding: 0;
+}
+
+@media (max-width: 1199px) {
+
+    footer{
+        width: 768px;
+        height: 156px;
+    }
+
+    .layout-footer{
+        width: 100%;
+    }
+
+    .social-network-btns-block{
+        width: 68px;
+        height: 24px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1 1;
+        gap: 20px;
+        justify-content: center;
+    }
+    
+    .block-one{
+        width: 528px;
+        height: 96px;
+    }
+}
+
+@media (max-width: 767px) {
+    footer{
+        width: 450px;
+        height: 174px;
+    }
+
+    .layout-footer{
+        width: 100%;
+    }
+
+    .social-network-btns-block{
+        width: 68px;
+        height: 24px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1 1;
+        gap: 20px;
+        justify-content: center;
+    
+    }
+
+    .block-one{
+        width: 450px;
+        height: 120px; 
+    }
+
+}
+
+@media (max-width: 479px) {
+    footer{
+        width: 360px;
+        height: 306px;
+    }
+
+    .layout-footer{
+        width: 100%;
+    }
+    
+    .social-network-btns-block{
+        width: 68px;
+        height: 24px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1 1;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .block-one{
+        width: 330px;
+        height: 168px;
+    }
+
+
+}
+/* .footer-second-adaptive-block{
+    display: none;
+} */
+
+/* ------------------------------------------------- */
+
+/* @media (max-width: 768px){ */
+    /* footer{
+        position: fixed;
+        width: 768px;
+        height: 156px;
+        margin-top: 1868px;
+        border: 1px, 0px, 0px, 0px;
+        gap: 54px;
+        border-top: 1px solid rgba(194, 197, 203, 1);
+        bottom : 0;
+        background-color: white;
+        margin: 0 auto;
+    } */
+    /* .layout-footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        gap: 54px;
+        padding-left: 30px;
+        /* padding-top: 27px; */
+        /* padding-right: 30px; */
+        /* padding-bottom: 27px; */
+
+    /* .footer-1st-block{
+        width: 528px;
+        height: 96px;
+    }
+    p.footer-leftside-text{
+        text-align: left;
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(109, 114, 124, 1);
+    }
+    p.footer-rightside-text-1{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(109, 114, 124, 1);
+    }
+    p.footer-rightside-text-2{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(45, 92, 166, 1);
+    } */
+    /* .footer-2nd-block{
+        display: none;
+    }
+    .footer-3rd-block{
+        display: none;
+    }
+    .footer-2nd-adaptive-block{
+        width: 68px;
+        height: 24px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1 1;
+        gap: 20px;
+        margin: auto;
+    }
+    .footer-3rd-adaptive-block{
+        width: 132px;
+        height: 48px;
+        text-align: left;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1;
+    }
+    .footer-second-adaptive-block{
+        visibility: visible;
+        width: 132px;
+        height: 96px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+    }  */
+    /* p.footer-rightside-text-1{
+        width: 132px;
+    }
+    .social-footer-img{
+        width: 24px;
+        height: 24px
+    }
+    a.image-link:visited{
+        color: rgba(109, 114, 124, 1);
+    }
+     */
+
+
+/* ------------------------------------------------- */
+/* 
+@media (max-width: 480px){
+    footer{
+        position: fixed;
+        width: 480px;
+        height: 234px;
+        margin-top: 2297px;
+        border: 1px, 0px, 0px, 0px;
+        gap: 30px;
+        border-top: 1px solid rgba(194, 197, 203, 1);
+        bottom : 0;
+        background-color: white;
+    }
+    .layout-footer{
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1;
+        gap: 30px;
+        padding-left: 30px;
+        padding-top: 15px;
+        padding-right: 30px;
+        padding-bottom: 15px;
+    }
+    .footer-1st-block{
+        width: 450px;
+        height: 120px;
+        margin-bottom: 30px;
+    }
+    p.footer-leftside-text{
+        text-align: left;
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(109, 114, 124, 1);
+    }
+    p.footer-rightside-text-1{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(109, 114, 124, 1);
+    }
+    p.footer-rightside-text-2{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(45, 92, 166, 1);
+    }
+    .footer-2nd-block{
+        width: 68px;
+        height: 24px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1 1;
+        gap: 20px;
+    }
+    .footer-3rd-block{
+        width: 245px;
+        height: 24px;
+        text-align: left;
+        display: flex;
+    }
+    p.footer-rightside-text-1{
+        width: 132px;
+    }
+    .social-footer-img{
+        width: 24px;
+        height: 24px
+    }
+    .footer-2nd-block{
+        display: none;
+    }
+    .footer-3rd-block{
+        display: none;
+    }
+    .footer-2nd-adaptive-block{
+        width: 68px;
+        height: 24px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1 1;
+        gap: 20px;
+    }
+    .footer-3rd-adaptive-block{
+        width: 245px;
+        height: 24px;
+        text-align: left;
+        display: flex;
+        flex-flow: column wrap;
+        flex: 1 1;
+    }
+    .footer-second-adaptive-block{
+        visibility: visible;
+        width: 450px;
+        height: 24px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        gap: 24px
+    }
+}
+
+/* -------------------------------------------------- */
+/* 
+@media (max-width: 360px){
+    footer{
+        position: fixed;
+        width: 360px;
+        height: 306px;
+        margin-top: 2201px;
+        border: 1px, 0px, 0px, 0px;
+        gap: 30px;
+        border-top: 1px solid rgba(194, 197, 203, 1);
+        bottom : 0;
+        background-color: white;
+    }
+    .layout-footer{
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1;
+        gap: 30px;
+        padding-left: 30px;
+        padding-top: 15px;
+        padding-right: 30px;
+        padding-bottom: 15px;
+    }
+    .footer-1st-block{
+        width: 330px;
+        height: 168px;
+    }
+    p.footer-leftside-text{
+        text-align: left;
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(109, 114, 124, 1);
+    }
+    p.footer-rightside-text-1{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(109, 114, 124, 1);
+    }
+    p.footer-rightside-text-2{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(45, 92, 166, 1);
+    }
+
+    p.footer-rightside-text-1{
+        width: 132px;
+    }
+    .social-footer-img{
+        width: 24px;
+        height: 24px
+    }
+    .footer-2nd-block{
+        display: none;
+    }
+    .footer-3rd-block{
+        display: none;
+    }
+    .footer-2nd-adaptive-block{
+        width: 68px;
+        height: 24px;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1 1;
+        gap: 20px;
+        padding-top: 20px;
+    }
+    .footer-3rd-adaptive-block{
+        width: 132px;
+        height: 48px;
+        text-align: left;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1;
+    }
+    .footer-second-adaptive-block{
+        visibility: visible;
+        width: 330px;
+        height: 48px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        gap: 24px
+    }
+ */
+
+    
