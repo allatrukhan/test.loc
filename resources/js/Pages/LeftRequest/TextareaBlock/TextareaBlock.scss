@@ -1,0 +1,26 @@
+textarea.form-control-2{
+    width: 918px;
+    height: 120px;
+    padding-bottom: 30px;
+}
+
+ /* ------------------------------------------------------------------ */
+ 
+ @media (max-width: 768px){
+    textarea.form-control-2{
+        width: 714px;
+        height: 120px;
+        padding-bottom: 30px;
+    } 
+
+ }
+
+ /* -------------------------------------------------------------------- */
+ @media (max-width: 480px){
+    textarea.form-control-2{
+        width: 450px;
+        height: 120px;
+        padding-bottom: 30px;
+    }
+    
+ }

@@ -1,0 +1,105 @@
+.inputs-block{
+    max-width: 920px;
+    height: 360px;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+.input-group{
+    width: 50%;
+    height: 56px;  
+    position: relative;
+    margin-bottom: 20px;
+}
+
+input.input-form-1{
+    width: 445px;
+    height: 56px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.38);
+}
+
+img.clear-input-img{
+    width: 32px;
+    height: 32px;
+    padding: 4px;
+    position: absolute;
+    right: 20px;
+    top: 10px
+}
+
+/* ------------------------------------------------------------------ */
+ 
+@media (max-width: 768px){
+    .input-group{
+        width: 50%;
+        height: 56px;  
+        position: relative;
+    }
+    .inputs-block{
+        width: 714px;
+        padding-bottom: 30px;
+        margin: 0 auto;
+    }
+
+    input.input-form-1{
+        width: 342px;
+        height: 56px;
+        border-radius: 4px;
+        border: 1px;
+        border: 1px solid rgba(0, 0, 0, 0.38);
+    }
+}
+
+/* -------------------------------------------------------------------- */
+@media (max-width: 480px){
+    .inputs-block{
+        width: 450px;
+        /* height: 664px; */
+        padding-bottom: 30px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        gap: 20px
+    }
+    .input-group{
+        max-width: 450px;
+        height: 56px;  
+        position: relative;
+    }
+    input.input-form-1{
+        width: 450px;
+        height: 56px;
+        border-radius: 4px;
+        border: 1px;
+        border: 1px solid rgba(0, 0, 0, 0.38);
+    }
+
+}
+
+/* ------------------------------------------------------------------------ */
+@media (max-width: 360px){
+
+    .inputs-block{
+        width: 330px;
+        height: 664px;
+        padding-bottom: 30px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        gap: 20px
+    }
+    .input-group{
+        width: 330px;
+        height: 56px; 
+        position: relative; 
+    }
+    input.input-form-1{
+        width: 330px;
+        height: 56px;
+        border-radius: 4px;
+        border: 1px;
+        border: 1px solid rgba(0, 0, 0, 0.38);
+    }
+    
+}

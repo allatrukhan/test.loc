@@ -1,0 +1,46 @@
+
+.search-btn-adaptive{
+    display: none;
+}
+
+.search-btn{
+    display: block;
+}
+
+
+@media (max-width: 1199px){
+
+    .search-btn-adaptive{
+        display: none;
+    }
+
+    .search-btn{
+        display: block;
+    }
+}
+
+@media (max-width: 757px){
+
+    .search-btn-adaptive{
+        display: none;
+    }
+
+    .search-btn{
+        display: block;
+    }
+}
+
+
+@media (max-width: 459px){
+
+    .search-btn{
+        display: none;
+    }
+
+    .search-btn-adaptive{
+        display: block;
+    }
+    
+
+    
+}

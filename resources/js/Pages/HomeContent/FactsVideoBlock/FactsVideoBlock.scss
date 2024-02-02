@@ -1,0 +1,47 @@
+.facts-video-block{
+    width: 350px;
+    top: 428px;
+    left: 45px;
+    gap: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+    margin-right: 20px;
+}
+
+.facts{
+    width: 350px;
+    height: 409px;
+    padding-bottom: 20px;
+}
+
+.video{
+    width: 350px;
+    height: 382px;
+    padding-bottom: 20px;
+}
+
+.facts-header{
+    width: 350px;
+    height: 39px;
+    justify-content: space-between;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1;
+    gap: 65%;
+}
+.video-header{
+    width: 350px;
+    height: 39px;
+    justify-content: space-between;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1 1;
+    gap: 40%
+}
+
+.description-block{
+    width: 350px;
+    height: 110px;
+    gap: 5px
+}

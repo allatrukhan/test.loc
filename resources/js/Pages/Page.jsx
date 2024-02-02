@@ -1,11 +1,19 @@
 import { Head } from '@inertiajs/react'
+import Layout from './Layout'
+
+
+import './global.scss';
+
 
 export default function Page() {
+
   return (
-    <>
-      <Head title="fdg dfgdfgdfgdfg" />
-      <h1>Welcome</h1>
-      <p>Hello, welcome to your first Inertia app!</p>
-    </>
+    
+     <Layout>
+      <Head title="Головна" />
+      {/* {pages} */}
+    </Layout>
+      
+      
   )
 }

@@ -1,0 +1,207 @@
+
+.hashtag-search-content{
+    width: 1110px;
+    padding-left: 45px;
+    margin: 0 auto;
+}
+
+    /* .path-block{
+        width: 229px;
+        height: 24px;
+    } */
+
+.hashtag-search-content-header{
+    width: 1110px;
+}
+
+p.number-search-result{
+    font-family: Proba Pro;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(109, 114, 124, 1);
+}
+
+.hashtag-search-main-content{
+    width: 1110px;
+}
+
+.hashtag-search-block{
+    width: 1110px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+   
+   .hashtag-search-block-1{
+        width: 26px;
+   }
+
+   .hashtag-search-block-2{
+        width: 1084px;
+   }
+
+
+.show-more-btn-block{
+    width: 1110px;
+    
+}
+
+button.show-more-btn{
+    width: 183px;
+    font-family: Proba Pro;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none;
+    background-color: white;
+    color: rgba(45, 92, 166, 1);
+    float: right;
+}
+    img.show-more-btn-icon{
+        width: 18px;
+        height: 18px
+    }
+
+
+/* -------------------------------------------------------------------- */
+
+@media (max-width: 768px){
+
+    .hashtag-search-content{
+        width: 714px;
+        padding-left: 45px;
+        margin: 0 auto;
+    }
+    
+    .hashtag-search-content-header{
+        width: 714px;
+    }
+    
+    p.number-search-result{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(109, 114, 124, 1);
+    }
+    
+    .hashtag-search-main-content{
+        width: 714px;
+    }
+    
+    .hashtag-search-block{
+        width: 714px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+       
+    .hashtag-search-block-1{
+        width: 26px;
+    }
+    
+    .hashtag-search-block-2{
+        width: 688px;
+    }
+    
+
+}
+
+/* --------------------------------------------------------------------- */
+
+@media (max-width: 480px){
+    
+    .hashtag-search-content{
+        width: 450px;
+        padding-left: 15px;
+        margin: 0 auto;
+    }
+    
+    .hashtag-search-content-header{
+        width: 450px;
+    }
+    
+    p.number-search-result{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(109, 114, 124, 1);
+    }
+    
+    .hashtag-search-main-content{
+        width: 450px;
+    }
+    
+    .hashtag-search-block{
+        width: 450px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+       
+    .hashtag-search-block-1{
+        width: 26px;
+    }
+    
+    .hashtag-search-block-2{
+        width: 424px;
+    }
+    
+    
+}
+
+/* --------------------------------------------------------------------- */
+
+@media (max-width: 360px){
+ 
+    .hashtag-search-content{
+        width: 330px;
+        padding-left: 15px;
+        margin: 0 auto;
+    }
+    
+    .hashtag-search-content-header{
+        width: 330px;
+    }
+    
+    p.number-search-result{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(109, 114, 124, 1);
+    }
+    
+    .hashtag-search-main-content{
+        width: 330px;
+    }
+    
+    .hashtag-search-block{
+        width: 330px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+    }
+       
+    .hashtag-search-block-1{
+        width: 26px;
+    }
+    
+    .hashtag-search-block-2{
+        width: 304px;
+    }
+    
+   
+}

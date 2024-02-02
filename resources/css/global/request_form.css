@@ -67,11 +67,11 @@
         /* border-color: rgba(109, 114, 124, 1); */
     }
 
-    hr{
+    /* hr{
         width: 920px;
         border: 1px;
         angle: -0 deg
-    }
+    } */
 
     .checking-security-block{
         width: 920px;
@@ -182,7 +182,7 @@
     hr{
         width: 714px;
         border: 1px;
-        angle: -0 deg
+        /* angle: -0 deg */
     }
     .checking-security-block{
         width: 714px;
@@ -276,7 +276,7 @@
     hr{
         width: 450px;
         border: 1px;
-        angle: -0 deg
+        /* angle: -0 deg */
     }
 
     .checking-security-block{
@@ -389,7 +389,7 @@
     hr{
         width: 330px;
         border: 1px;
-        angle: -0 deg
+        /* angle: -0 deg */
     }
     .checking-security-block{
         width: 330px;

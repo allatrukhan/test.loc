@@ -1,6 +1,6 @@
 @media (max-width: 1200px){
 
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     left: 0;
@@ -10,7 +10,7 @@
 }
 
 .backdrop.is-hidden {
-    opacity: 0.5;
+    opacity: 1;
     pointer-events: none;
 }
 
@@ -57,7 +57,7 @@ a.list{
 a.list:hover {
     color: yellow;
     text-decoration: underline;
-}
+} */
 
 }
 /* --------------------------------------------------------------------- */

@@ -13,8 +13,8 @@ class HomeController extends Controller
     public function index() : Response
     {
 
-        return Inertia::render('Page', []);
+        return Inertia::render('HomeContent/HomeContent', []);
 
-    }
+}
 
 }
