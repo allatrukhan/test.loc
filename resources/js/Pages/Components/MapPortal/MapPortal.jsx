@@ -4,11 +4,19 @@ import './MapPortal.scss';
 
 function MapPortal(){
 
+    // const breakpointColumnsObj = {
+    //     default: 3,
+    //     1100: 2,
+    //     700: 1,
+    //     500:1
+    //   };
+
     return(
         <Masonry
             breakpointCols={3}
             className="container row my-masonry-grid"
             columnClassName="my-masonry-grid_column">
+                
                 <div className="col-4 col-md-6 col-sm-12 grid-item map-block-1">
                     <a href="#">Про управління</a>
                 </div>

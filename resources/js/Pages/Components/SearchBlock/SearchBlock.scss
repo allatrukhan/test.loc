@@ -1,10 +1,13 @@
 .search-block{
     width: 1200px;
     height: 228px;
-    top: 358px;
+    top: 83px;
     padding: 30px, 45px, 70px, 45px;
     gap: 20px;
     background: rgba(18, 37, 66, 1);
+    z-index: 10;
+    // position: absolute;
+    // margin-left: -11px;
 }
 
 .content-search-block{
@@ -18,7 +21,8 @@
     width: 1110px;
     height: 24px;
     border: 0px, 0px, 4px, 0px;
-    gap: 5px
+    gap: 5px;
+    margin-bottom: 20px;
 }
 
 p.menu-search-title{
@@ -33,18 +37,46 @@ p.menu-search-title{
     margin-left: 60px;
 }
 
+button.btn-search-search-block{
+    width: 110px;
+    height:40px;
+    border-radius: 4px;
+    background: #FFE358;
+    display: flex;
+    padding: 8px 16px;
+    gap: 5px;
+    color: #1D1D1B;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    font-family: Proba Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    margin-left: 20px;
+    margin-right: 0;
+}
 
 .search-on-portal{
     width: 1110px;
     height: 40px;
+    display: flex;
     gap: 20px
 }
 
 input.form-control{
-    width: 980px;
+    width: 950px;
     height: 40px;
     border-radius: 4px;
-    border: 1px
+    border-style: 1px solid white;
+    background-color: rgba(18, 37, 66, 1);
+}
+input.form-control:active{
+    background: rgba(18, 37, 66, 1);
+}
+
+form.form-inline-block{
+    
 }
 
 .search-on-portal form{
@@ -53,4 +85,248 @@ input.form-control{
     flex: 1 1;
     gap: 20px;
     justify-content: center;
-}
+
+} button.btn-adaptive{
+        display: none;
+    }
+
+
+@media (max-width: 1200px){
+    
+    .search-block{
+        width: 768px;
+        height: 280px;
+        top: 70px;
+        padding: 30px, 45px, 70px, 45px;
+        gap: 20px;
+        background: rgba(18, 37, 66, 1);
+    }
+    
+    .content-search-block{
+        width: 678px;
+        height: 84px;
+    }
+    
+    .search-title{
+        width: 678px;
+        height: 24px;
+        border: 0px, 0px, 4px, 0px;
+        gap: 5px;
+    
+    }
+    
+    p.menu-search-title{
+        font-family: Proba Pro;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: rgba(255, 255, 255, 1);
+        margin-bottom: 20px;
+        margin-left: 60px;
+    }
+    
+    
+    .search-on-portal{
+        width: 678px;
+        height: 40px;
+        gap: 20px
+    }
+    
+    input.form-control{
+        width: 548px;
+        height: 40px;
+        border-radius: 4px;
+        border: 1px
+    }
+    
+    button.btn{
+        width: 110px;
+        height:40px;
+        padding: 8px, 16px, 8px, 16px;
+        border-radius: 4px;
+        gap: 5px;
+        background-color: rgba(255, 227, 88, 1);
+        border-color: black;
+        color: black;
+    }
+    
+    button.close-button{
+        padding-right: 60px;
+        padding-top: 40px;
+    
+    }
+    
+    .search-on-portal form{
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1 1;
+        gap: 20px;
+        justify-content: center;
+    }
+    button.btn-adaptive{
+        display: none;
+    }
+    }
+    
+    
+    /* --------------------------------------------------------------------- */
+    
+    @media (max-width: 768px){
+
+        .search-block{
+            width: 480px;
+            height: 290px;
+            top: 70px;
+            padding: 30px, 45px, 70px, 45px;
+            gap: 20px;
+            background: rgba(18, 37, 66, 1);
+        }
+        
+        .content-search-block{
+            width: 390px;
+            height: 84px;
+        }
+        
+        .search-title{
+            width: 390px;
+            height: 24px;
+            border: 0px, 0px, 4px, 0px;
+            gap: 5px;
+        }
+        
+        p.menu-search-title{
+            font-family: Proba Pro;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: rgba(255, 255, 255, 1);
+            margin-bottom: 20px;
+            margin-left: 60px;
+        }
+        
+        
+        .search-on-portal{
+            width: 390px;
+            height: 40px;
+            gap: 20px
+        }
+        
+        input.form-control{
+            width: 390px;
+            height: 40px;
+            border-radius: 4px;
+            border: 1px
+        }
+        
+        button.btn{
+            width: 110px;
+            height:40px;
+            padding: 8px, 16px, 8px, 16px;
+            border-radius: 4px;
+            gap: 5px;
+            background-color: rgba(255, 227, 88, 1);
+            border-color: black;
+            color: black;
+        }
+        
+        button.close-button{
+            padding-right: 60px;
+            padding-top: 40px;
+        
+        }
+        
+        .search-on-portal form{
+            display: flex;
+            flex-flow: row wrap;
+            flex: 1 1;
+            gap: 20px;
+            justify-content: center;
+        }
+    
+        button.btn-adaptive{
+            display: none;
+        }
+    }
+    /* --------------------------------------------------------------------- */
+    
+    @media (max-width: 480px){
+        
+        .search-block{
+            width: 360px;
+            height: 290px;
+            top: 70px;
+            padding: 30px, 45px, 70px, 45px;
+            gap: 20px;
+            background: rgba(18, 37, 66, 1);
+        }
+        
+        .content-search-block{
+            width: 270px;
+            height: 84px;
+        }
+        
+        .search-title{
+            width: 270px;
+            height: 24px;
+            border: 0px, 0px, 4px, 0px;
+            gap: 5px;
+        }
+        
+        p.menu-search-title{
+            font-family: Proba Pro;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: rgba(255, 255, 255, 1);
+            margin-bottom: 20px;
+            margin-left: 60px;
+        }
+        
+        
+        .search-on-portal{
+            width: 270px;
+            height: 40px;
+            gap: 20px
+        }
+        
+        input.form-control{
+            width: 210px;
+            height: 40px;
+            border-radius: 4px;
+            border: 1px
+        }
+        
+        button.btn{
+            display: none;
+        }
+    
+        button.btn-adaptive{
+            visibility: visible;
+            width: 40px;
+            height:40px;
+            padding: 8px, 16px, 8px, 16px;
+            border-radius: 4px;
+            gap: 5px;
+            background-color: rgba(255, 227, 88, 1);
+            border-color: black;
+        }
+        
+        button.close-button{
+            padding-right: 60px;
+            padding-top: 40px;
+        }
+        
+        .search-on-portal form{
+            display: flex;
+            flex-flow: row wrap;
+            flex: 1 1;
+            gap: 20px;
+            justify-content: center;
+        }
+    }

@@ -1,6 +1,14 @@
-button.btn-close{
-    width: 52px;
-    height: 52px;
+button.btn-close-general{
+    width: 24px;
+    height: 24px;
     display: flex;
     float: right;  
+    background-color: transparent;   
+    border: none;
+}
+
+
+img.close-img{
+    width: 24px;
+    height: 24px;
 }

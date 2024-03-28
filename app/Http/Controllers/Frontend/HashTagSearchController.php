@@ -13,7 +13,7 @@ class HashTagSearchController extends Controller
     public function index() : Response
     {
 
-        return Inertia::render('HashTagSearch/HashTagSearch', []);
+        return Inertia::render('HashTagSearchPage/HashTagSearchPage', []);
 
     }
 

@@ -1,5 +1,5 @@
 .inputs-block{
-    max-width: 920px;
+    width: 920px;
     height: 360px;
     padding-bottom: 30px;
     margin: 0 auto;
@@ -19,13 +19,14 @@ input.input-form-1{
     border: 1px solid rgba(0, 0, 0, 0.38);
 }
 
-img.clear-input-img{
+button.clear-input-btn{
     width: 32px;
     height: 32px;
     padding: 4px;
     position: absolute;
     right: 20px;
-    top: 10px
+    background-color: transparent;
+    border: none;
 }
 
 /* ------------------------------------------------------------------ */

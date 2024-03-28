@@ -1,12 +1,12 @@
             
 import './CloseBtn.scss';
 
-function CloseBtn(){
+function CloseBtn({closeBtn}){
             
     return(
         <>
-        <button type="button" className="btn-close" aria-label="Close">
-            <img src=".././images/close-icon.png" clasName="close-img" alt="close-img"/>
+        <button type="button" className="btn-close-general" aria-label="Close" onClick={closeBtn}>
+            <img src=".././images/close-icon.png" className="close-img" alt="close-img"/>
          </button>
         </>
     )

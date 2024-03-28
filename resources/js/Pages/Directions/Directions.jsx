@@ -1,15 +1,16 @@
+import { Head } from '@inertiajs/react';
 import Layout from '../Layout';
 import './Directions.scss';
 
 function Directions(){
 
     return(
-        <>
+        <div className='container directions-content'>
         <Head title="Напрямки" />
-       
+
             <h1>Напрямки</h1>
         
-        </>
+        </div>
     )
 }
 

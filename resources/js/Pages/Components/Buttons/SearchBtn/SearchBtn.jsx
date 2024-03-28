@@ -12,24 +12,24 @@ function SearchBtn(){
     };
     
     const closeSearchBlock=()=>{
-      setIsOpen(false);
+      setIsSearchOpen(false);
     };
 
     return(
         <>
             <div className="search-btn">
-                <button type="submit" className="open-search" onClick={openSearchBlock}>
+                <button type="button" className="open-search" onClick={openSearchBlock}>
                     <img src=".././images/search.png" className="search-img" alt="search img"/>
                     <span>Пошук</span>
                 </button>
             </div>
-            <div className="search-btn-adaptive">
-                <button type="submit" className="open-search" onClick={openSearchBlock}>
+            {/* <div className="search-btn-adaptive">
+                <button type="button" className="open-search" onClick={openSearchBlock}>
                     <img src=".././images/search.png" className="search-img" alt="search img"/>
                 </button>
-            </div> 
+            </div>  */}
 
-            {(isSearchOpen)&&<SearchBlock closeSearchBlock={closeSearchBlock}/>} 
+            {(isSearchOpen)&&<SearchBlock closeBtn={closeSearchBlock}/>} 
         </>
     )
 

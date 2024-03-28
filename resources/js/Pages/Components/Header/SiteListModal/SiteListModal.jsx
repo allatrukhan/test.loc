@@ -6,7 +6,7 @@ function SiteListModal({closeModal}){
     return(
         <>
         <div className="btn-modal-close">
-            <CloseBtn onClick={closeModal}/>
+            <CloseBtn closeBtn={closeModal}/>
         </div>
         
         <div className="backdrop is-hidden">

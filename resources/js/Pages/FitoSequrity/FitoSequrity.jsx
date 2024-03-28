@@ -1,7 +1,9 @@
 import { Head } from '@inertiajs/react';
+import Layout from '../Layout';
 import Breadcrumbs from '../Components/Breadcrumbs/Breadcrumbs';
 
 import './FitoSequrity.scss';
+import '../global.scss';
 
 function FitoSequrity({...data}){
 
@@ -9,6 +11,7 @@ function FitoSequrity({...data}){
         <>
         <Head title={"Фітосанітарна безпека, насінництво та розсадництво"} />
         <div className="container fito-main-content">
+      
             <Breadcrumbs/>
         <div className="title-fito">
         <h1>Фітосанітарна безпека, насінництво та розсадництво</h1>
@@ -99,5 +102,7 @@ function FitoSequrity({...data}){
     </>
     )
 }
+
+FitoSequrity.layout = page => <Layout children={page} title="Фітосанітарна безпека, насінництво та розсадництво" />
 
 export default FitoSequrity;   
