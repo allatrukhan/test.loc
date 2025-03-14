@@ -28,7 +28,7 @@
     display: flex;
     flex-flow: row wrap;
     flex: 1 1;
-    gap: 65%;
+    gap: 55%;
 }
 .video-header{
     width: 350px;
@@ -37,11 +37,13 @@
     display: flex;
     flex-flow: row wrap;
     flex: 1 1;
-    gap: 40%
+    gap: 30%
 }
 
 .description-block{
     width: 350px;
     height: 110px;
-    gap: 5px
+    margin-top: 20px;
+    // gap: 5px;
+
 }

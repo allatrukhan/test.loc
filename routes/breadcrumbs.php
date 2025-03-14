@@ -35,6 +35,19 @@ Breadcrumbs::for('left_request', function (BreadcrumbTrail $trail): void {
 });
 
 
+//--------------------//
+
+
+Breadcrumbs::for('about_management', function (BreadcrumbTrail $trail): void {
+    $trail->parent('home');
+    $trail->push("Про управління", route('about_management'));
+});
+
+Breadcrumbs::for('left_request', function (BreadcrumbTrail $trail): void {
+    $trail->parent('about_management');
+    $trail->push("Кіровоградська регіональна державна лабораторія ветеринарної медицини", route('regional_lab'));
+});
+
 
 // Route::get('/', [\App\Http\Controllers\Frontend\HomeController::class, 'index'])->name('home');
     Route::get('/post_content', [\App\Http\Controllers\Frontend\PostController::class, 'index'])->name('post_content');

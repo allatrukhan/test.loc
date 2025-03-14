@@ -29,14 +29,13 @@ button.set-mode-button{
     color: rgba(255, 255, 255, 1);
 }
 
-body {
-    padding: 25px;
-    background-color: white;
-    color: black;
-    font-size: 25px;
-  }
+// body {
+//     padding: 25px;
+//     background-color: white;
+//     color: black;
+//     font-size: 25px;
+//   }
   
   .dark-mode {
-    background-color: black;
-    color: white;
+    filter: grayscale(100%);
   }

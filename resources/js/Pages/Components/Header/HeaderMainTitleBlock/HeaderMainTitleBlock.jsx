@@ -5,7 +5,8 @@ function HeaderMainTitleBlock(){
     return(
         <div className="container">
             <div className="row">
-                <div className="col-6 order-xl-0 col-md-12 order-2 central-content">
+                <div className="central-content">
+                {/* col-6 order-xl-0 col-md-12 order-2  */}
                     <img src=".././images/emblem_img.png" className="emblem-img" alt="emblem"/>
                     <div className="central-title">
                         <p className="text1">

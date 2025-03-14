@@ -10,10 +10,10 @@ function HomeContent(){
         <>
         <Head title="Головна" />
         <div className="container row home-content">
-            <div class="col-4">
+            <div className="col-4">
                 <FactsVideoBlock/>
             </div>
-            <div class="col-8">
+            <div className="col-8">
                 <NewsAnoncesBlock/>
             </div>
         </div>

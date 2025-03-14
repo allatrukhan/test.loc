@@ -1,3 +1,5 @@
+import { Head } from '@inertiajs/react';
+import Layout from '../Layout';
 import Breadcrumbs from '../Components/Breadcrumbs/Breadcrumbs';
 import HashTagsBlock from '../Components/HashTagsBlock/HashTagsBlock';
 
@@ -7,32 +9,32 @@ import './ArticleContent.scss';
 function ArticleContent(){
 
     return(
-        <div classname="page-content">
+        <div className="container page-content">
             <Head title="Вимоги до звернення" />
-            <div class="main-page-info">
+            <div className="main-page-info">
                 <Breadcrumbs/>
-                <div class="page-header">
-                    <div class="layout-page-header">
+                <div className="page-header">
+                    <div className="layout-page-header">
                         <h1>Вимоги до звернення</h1>
                     </div>
-                    <div class="date-tags-block">
-                        <div class="date-block">
+                    <div className="date-tags-block">
+                        <div className="date-block">
                             <h2>12 липня 2023</h2>
                         </div>
-                        <div class="tags">
+                        <div className="tags">
                             <HashTagsBlock/>
                         </div>
                     </div>
                 </div>
-                <div class="page-post">
-                    <div class="image-block">
+                <div className="page-post">
+                    <div className="image-block">
                         <img src='.././images/post-img.png' class="post_img_1" alt="post_img"/>
                     </div>
-                    <div class="main-text-1">
-                        <div class="title-main-text">
+                    <div className="main-text-1">
+                        <div className="title-main-text">
                             <h3> Шановні відвідувачі сайту! </h3>   
                         </div>
-                        <div class="first-text-block-content">
+                        <div className="first-text-block-content">
                             <p>
                                 Інформуємо вас про те, що відповідно до частини шостої статті 5 Закону України 
                                 «Про звернення громадян» письмове звернення надсилається поштою або 
@@ -42,7 +44,7 @@ function ArticleContent(){
                                 засобів електронного зв’язку (електронне звернення). 
                             </p>  
                         </div>
-                        <div class="first-text-block-content-1">
+                        <div className="first-text-block-content-1">
                             <p>
                                 Інформуємо вас про те, що відповідно до частини шостої статті 5 Закону України 
                                 «Про звернення громадян» письмове звернення надсилається поштою або 
@@ -51,20 +53,20 @@ function ArticleContent(){
                                 законодавства.
                             </p>  
                         </div>
-                <div class="second-text-block-content">
-                    <div class="text-part">
-                        <div class="first-text-block-content-2">
+                <div className="second-text-block-content">
+                    <div className="text-part">
+                        <div className="first-text-block-content-2">
                             <p>
                                 Письмове звернення також може бути надіслане з використанням мережі Інтернет, 
                                 засобів електронного зв’язку (електронне звернення).                     
                             </p>  
                         </div>
-                        <div class="text-block-second-1">
+                        <div className="text-block-second-1">
                             <p>
                                 Отже, електронне звернення є різновидом письмового звернення. 
                             </p>
                         </div>
-                        <div class="text-block-second-2">
+                        <div className="text-block-second-2">
                             <p>
                             Водночас звертаємо вашу увагу на те, що згідно з частиною сьомою статті 5 Закону України 
                             «Про звернення громадян» у зверненні громадянина має бути зазначено прізвище, ім’я, 
@@ -76,7 +78,7 @@ function ArticleContent(){
                             підпису при надсиланні електронного звернення не вимагається.
                             </p>
                         </div>                   
-                        <div class="text-block-second-3">
+                        <div className="text-block-second-3">
                             <p>
                             <b>З урахуванням викладеного підпис громадянина в електронному зверненні може бути відсканованим, 
                                 сфотографованим тощо. Звичайно опрацьовуються електронні звернення громадян, підписані з 
@@ -84,25 +86,25 @@ function ArticleContent(){
                             </p>
                         </div>
                     </div>
-                        <div class="image-part">
+                        <div className="image-part">
                             <img src='.././images/image-in-content.png' class="post_img_2" alt="post_img"/>
-                            <p class="image-description"> Поштова скринька </p>
+                            <p className="image-description"> Поштова скринька </p>
                         </div>
                     </div>
-                    {/* <!-- <div class="text-block-second-3-adaptive">
+                  <div class="text-block-second-3-adaptive">
                             <p class="text-block-second">
                             <b>З урахуванням викладеного підпис громадянина в електронному зверненні може бути відсканованим, 
                                 сфотографованим тощо. Звичайно опрацьовуються електронні звернення громадян, підписані з 
                                 застосуванням електронного цифрового підпису.</b>
                             </p>
-                        </div> --> */}
-                <div class="third-text-block-content">
-                        <div class="text-block-second-1-adaptive">
+                        </div>
+                <div className="third-text-block-content">
+                        <div className="text-block-second-1-adaptive">
                             <p>
                                 Отже, електронне звернення є різновидом письмового звернення. 
                             </p>
                         </div>
-                        <div class="text-block-second-2-adaptive">
+                        <div className="text-block-second-2-adaptive">
                             <p>
                             Водночас звертаємо вашу увагу на те, що згідно з частиною сьомою статті 5 Закону України 
                             «Про звернення громадян» у зверненні громадянина має бути зазначено прізвище, ім’я, 
@@ -114,21 +116,21 @@ function ArticleContent(){
                             підпису при надсиланні електронного звернення не вимагається.
                             </p>
                         </div>
-                        <div class="text-block-second-3-adaptive">
+                        <div className="text-block-second-3-adaptive">
                             <p>
                             <b>З урахуванням викладеного підпис громадянина в електронному зверненні може бути відсканованим, 
                                 сфотографованим тощо. Звичайно опрацьовуються електронні звернення громадян, підписані з 
                                 застосуванням електронного цифрового підпису.</b>
                             </p>
                         </div>
-                    <div class="text-block-third-1">
+                    <div className="text-block-third-1">
                         <p>
                         Звернення, оформлене без дотримання зазначених вимог, відповідно до частини восьмої статті 5 
                         Закону України «Про звернення громадян» повертається заявнику із відповідними роз’ясненнями 
                         не пізніш як через десять днів від дня його надходження.
                         </p>
                     </div>
-                    <div class="text-block-third-2">
+                    <div className="text-block-third-2">
                         <p>
                         Звертаємо вашу увагу, що при листуванні електронною поштою Головне управління Держпродспоживслужби 
                         в Кіровоградській області не приймає та не може відправляти листи на адреси, 
@@ -136,7 +138,7 @@ function ArticleContent(){
                         Враховуйте це, вказуючи електронну адресу для листування.
                         </p>
                     </div>
-                    <div class="text-block-third-3">
+                    <div className="text-block-third-3">
                         <p>
                         Крім того, просимо звернути увагу, що відповідно до статті 6 Закону України 
                         «Про основні засади державного нагляду (контролю) у сфері господарської діяльності» 
@@ -146,7 +148,7 @@ function ArticleContent(){
                         з додаванням документів чи їх копій, що підтверджують такі порушення (за наявності).
                         </p>
                     </div>
-                    <div class="text-block-third-4">
+                    <div className="text-block-third-4">
                         <p>
                         Відповідно до статті 7 Закону для здійснення планового або позапланового заходу орган державного 
                         нагляду (контролю) видає наказ, який <b>має містити найменування суб'єкта господарювання та/або 
@@ -156,43 +158,43 @@ function ArticleContent(){
                     </div>
                 </div>
             </div>
-            <div class="main-text-2">
-                <div class="fourth-text-block-content">
-                    <div class="text-block-fourth-1">
+            <div className="main-text-2">
+                <div className="fourth-text-block-content">
+                    <div className="text-block-fourth-1">
                         <p>
                             <b>Враховуючи зазначене, для належного розгляду питань, викладених у зверненні, 
                                 просимо надати інформацію стосовно:</b>
                         </p>
                     </div>
-                    <div class="text-block-fourth-2">
-                        <div class="text-block-fourth-2-1">
+                    <div className="text-block-fourth-2">
+                        <div className="text-block-fourth-2-1">
                             <p>
                             <b>- повної назви непродовольчого товару або харчового продукту та виробника харчового продукту (назва, адреса);</b>
                             </p>
                         </div>
-                        <div class="text-block-fourth-2-2">
+                        <div className="text-block-fourth-2-2">
                             <p>
                             <b>- найменування суб’єкта господарювання, який здійснює діяльність у зазначеному вами магазині, 
                                 зокрема його організаційно-правову форму (ТОВ, СПД, ФОП тощо);</b>
                             </p>
                         </div>
-                        <div class="text-block-fourth-2-3">
+                        <div className="text-block-fourth-2-3">
                             <p>
                             <b>- найменування та адресу суб’єкта господарювання;</b>
                             </p>
                         </div>
-                        <div class="text-block-fourth-2-4">
+                        <div className="text-block-fourth-2-4">
                             <p>
                             <b>-назву та адресу магазину;</b>
                             </p>
                         </div>
-                        <div class="text-block-fourth-2-5">
+                        <div className="text-block-fourth-2-5">
                             <p>
                             <b>-додати копії документів (у разі наявності).</b>
                             </p>
                         </div>
                     </div>
-                    <div class="text-block-fourth-3">
+                    <div className="text-block-fourth-3">
                         <div class="text-block-fourth-3-1">
                             <p>
                             У разі отримання звернення із переліченою вище інформацією ваше звернення буде розглянуто 
@@ -206,9 +208,9 @@ function ArticleContent(){
                             </p>
                         </div>
                     </div>
-                    <div class="text-block-fourth-4">
-                        <img src=".././images/email-img.png" class="email-img" alt="email-img"/>
-                        <p class="e-mail">
+                    <div className="text-block-fourth-4">
+                        <img src=".././images/email-img.png" className="email-img" alt="email-img"/>
+                        <p className="e-mail">
                         gudpss@kr.consumer.gov.ua
                         </p>
                     </div>
@@ -216,23 +218,23 @@ function ArticleContent(){
             </div>
         </div>
     </div>
-    <div class="doc-block-main">
-    <div class="doc-block">
-        <div class="print">
-            <img src=".././images/printer-img.png" class="print-img" alt="print-img"/>
-            <p class="doc-block-option">
+    <div className="doc-block-main">
+    <div className="doc-block">
+        <div className="print">
+            <img src=".././images/printer-img.png" className="print-img" alt="print-img"/>
+            <p className="doc-block-option">
                 Print
             </p>
         </div>
-        <div class="pdf">
-            <img src=".././images/file-pdf.png" class="pdf-img" alt="pdf-img"/>
-            <p class="doc-block-option">
+        <div className="pdf">
+            <img src=".././images/file-pdf.png" className="pdf-img" alt="pdf-img"/>
+            <p className="doc-block-option">
                 PDF
             </p>
         </div>
-        <div class="left-email">
-            <img src=".././images/email-img.png" class="email-img" alt="email-img"/>
-            <p class="doc-block-option">
+        <div className="left-email">
+            <img src=".././images/email-img.png" className="email-img" alt="email-img"/>
+            <p className="doc-block-option">
                 E-mail
             </p>
         </div>
@@ -243,5 +245,5 @@ function ArticleContent(){
     )
 
 }
-
+ArticleContent.layout = page => <Layout children={page} title="Фітосанітарна безпека, насінництво та розсадництво" />
 export default ArticleContent;   

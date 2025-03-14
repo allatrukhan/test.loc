@@ -1,13 +1,23 @@
 
-
+.header-layout{
+    width: 1200px;
+    background: radial-gradient(51.38% 150.28% at 50% 50%, #104D82 0%, #234161 100%);
+}
 .header-content{
     height: 358px;
-    background: radial-gradient(51.38% 150.28% at 50% 50%, #104D82 0%, #234161 100%);
-    width: 1199px;
+    // background: radial-gradient(51.38% 150.28% at 50% 50%, #104D82 0%, #234161 100%);
+    width: 100%;
     display: flex;
     flex-flow: row wrap;
     flex: 1 1 1;
     padding-top: 23px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.header-1st-row{
+    display: flex;
+    padding-top: 20px;
 }
 
 .emblem-img{
@@ -23,11 +33,18 @@
     float: right;
 }
 
+.first-el-header{
+    display: flex;
+}
+.gov-header{
+    padding-left: 50px;
+}
+
 .header-content-adaptive{
     display: none;
 }
 
-.search-btn{
+.search-btn-1{
    display: none; 
 }
 
@@ -39,38 +56,67 @@
     width: 1199px;
 }
 
-.burger{
+// .burger{
+//     display: none;
+// }
+
+button.burger-btn{
     display: none;
 }
-
 
 @media (max-width: 1199px){
 
     .header-content{
-        width: 768px;
+        max-width: 768px;
         margin: 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1 1;
+    }
+
+    .header-1st-row{
+        display: flex;
+        flex-flow: row wrap;
+        flex: 1 1;
     }
     
-    .main-menu{
-        display: none;
+    .header-layout{
+        width: 768px;
+
     }
-    
-    .burger{
-        display: block;
-        width: 24px;
-        height: 24px;
-    }
-    
+
     .header-1st-row-3rd-block{
+        display: flex;    
+    }
+
+    .main-menu-block{
         display: none;
     }
     
-    .search-btn{
-        display: block;
-        padding-right: 20px;
+    // .burger{
+    //     display: block;
+    //     width: 24px;
+    //     height: 24px;
+    // }
+    
+    .social-network-btn-block{
+        display: none;
+    }
+
+    .header-dark-mode{
+        display: none;
     }
     
+    .search-btn-1{
+        display: block;
+        
+        // padding-right: 20px;
+    }
     
+    button.burger-btn{
+        display: block;
+    }
+
     img.menu-burger-img{
         width: 24px;
         height: 24px;
@@ -86,7 +132,6 @@
         .header-content{
             width: 480px;
             height: 360px;
-            background: radial-gradient(51.38% 150.28% at 50% 50%, #104D82 0%, #234161 100%);
             margin: 0 auto;;
         }
      
@@ -99,7 +144,6 @@
         .header-content{
             width: 360px;
             height: 360px;
-            background: radial-gradient(51.38% 150.28% at 50% 50%, #104D82 0%, #234161 100%);
             margin: 0 auto;
         }
         

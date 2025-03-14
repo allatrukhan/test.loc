@@ -5,8 +5,11 @@ function TextareaBlock(){
 
     return(
     
-        <div className="textarea">
-             <textarea class="form-control-2" rows="5" id="message" name="text">Повідомлення</textarea>
+        <div className="container textarea-block">
+             <textarea className="form-control-2" rows="5" id="message" 
+             name="text" value="Textarea" readOnly
+            //  onChange={alert('You just changed the textarea.')}
+             >Повідомлення</textarea>
         </div>
     
     )

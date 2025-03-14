@@ -1,0 +1,34 @@
+// .checking{
+//     margin-left: 10px;
+// }
+
+.checking-content{
+    width: 920px;
+    height: 193px;
+    margin: 0 auto;
+    border: 1px solid #6D727C;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.checking-title{
+   width: 200px;
+   display: grid;
+   grid-template-columns: 4fr 1fr;
+   gap: 10px
+}
+
+button.submit-btn{
+    margin-top: 20px;
+    margin: 0 auto;
+    border: none;
+    background-color: #C2C5CB;
+    color: #6D727C;
+    margin-top: 20px;
+    display: flex;
+    font-family: Proba Pro;
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+

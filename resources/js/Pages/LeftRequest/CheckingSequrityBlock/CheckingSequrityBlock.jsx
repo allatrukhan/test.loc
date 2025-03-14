@@ -1,37 +1,43 @@
 import ReCAPTCHA from "react-google-recaptcha";
-import React, { useRef } from 'react';
+import React from 'react';
 
 import './CheckingSequrityBlock.scss';
 
 
 function CheckingSequrityBlock(){
 
-    const captchaRef = useRef(null);
+    const handleSubmit = (e) =>{
+        e.preventDefault();
+        captchaRef.current.reset();
+    }
 
-    // const handleSubmit = (e) =>{
-    //     e.preventDefault();
-    //     const token = captchaRef.current.getValue();
-    //     captchaRef.current.reset();
-    // }
+    function onChange(value) {
+        console.log("Captcha value:", value);
+      }
 
     return(
     
-        <div className="checking">
-            <div class="checking-title">
+    <div className="container checking">
+        <div className="checking-content">
+            <div className="checking-title">
                 <h3>Перевірка безпеки</h3>
-                <img src='.././images/i_image.png' class="i_img" alt="i_img"/>
+                <img src='.././images/i_image.png' className="i_img" alt="i_img"/>
             </div>
-            <div class="checking-text-block">
+            <div className="checking-text-block">
                 <p>Підтвердіть нижче, якщо Ви погоджуєтесь на обробку своїх персональних даних</p>
             </div>
-            <div class="capcha">
-                <ReCAPTCHA sitekey={process.env.REACT_APP_SITE_KEY} ref={captchaRef}/>
+            <div className="capcha">
+                <ReCAPTCHA
+                    sitekey="6LfL318pAAAAAFUd0bEyoyjl-DAF4tTUC1juwDOe"
+                    onChange={onChange}
+                />
             </div>
-            <div class="send-request-button">
-            <input type="submit" class="submit-btn" value="Відправити" />
-            {/* <!-- <img src='.././images/right-icon.png' class="right_icon_img" alt="vector_img"> --> */}
         </div>
+        <div className="send-request-button">
+                <input type="submit" className="submit-btn" value="Відправити" onSubmit={handleSubmit}/>
+                {/* <!-- <img src='.././images/right-icon.png' class="right_icon_img" alt="vector_img"> --> */}
         </div>
+    </div>
     
     )
 }
